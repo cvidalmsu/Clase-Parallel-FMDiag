@@ -32,7 +32,7 @@ public class PFMDiagTest{
 
 	@Parameters
 	public static Collection testData() throws IOException {
-		return getTestData("D:\\ejemplo.csv");
+		return getTestData("FMDiagVSPFMDiag.csv");
 	}
 	
 	
