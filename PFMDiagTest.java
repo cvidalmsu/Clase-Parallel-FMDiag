@@ -32,7 +32,7 @@ public class PFMDiagTest{
 
 	@Parameters
 	public static Collection testData() throws IOException {
-		return getTestData("FMDiagVSPFMDiag.csv");
+		return getTestData("FMDiagVSPFMDiagBetty.csv");
 	}
 	
 	
@@ -116,7 +116,7 @@ public class PFMDiagTest{
 		Assert.assertNotSame(array1, array4);
 		Assert.assertNotEquals(array1, array4);
 
-		assertTrue("FMDiad (" + dif + ") should be greater than PFMDiag using 4 Threads (" + dif2 + ")", dif > dif4);
+		assertTrue("FMDiad (" + dif + ") should be greater than PFMDiag using 4 Threads (" + dif4 + ")", dif > dif4);
 	}
 	
 }
